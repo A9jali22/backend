@@ -1,0 +1,102 @@
+/* Gradient Background */
+.login-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #6a5acd, #d3d3d3, #f8f9fa);
+    background-size: cover;
+  }
+  
+  /* Glassmorphic Login Box */
+  .login-box {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12px);
+    text-align: center;
+    width: 350px;
+  }
+  
+  /* Title & Subtext */
+  .login-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #4a4a4a;
+    margin-bottom: 5px;
+  }
+  
+  .login-subtext {
+    font-size: 1rem;
+    color: #5a5a5a;
+    margin-bottom: 20px;
+  }
+  
+ /* Improved Error Box */
+.error-box {
+    background: rgba(255, 0, 0, 0.1);
+    color: #d8000c;
+    padding: 12px;
+    border-left: 5px solid #d8000c;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    width: 100%;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  
+  /* Input Fields */
+  input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #6a5acd;
+  }
+  
+  /* Button */
+  button {
+    width: 100%;
+    padding: 12px;
+    background: #6a5acd;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background: #5545b5;
+  }
+  
+  button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+  }
+  
+  /* Spinner for Loading */
+  .spinner {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border: 3px solid rgba(255, 255, 255, 0.3);
+    border-top-color: white;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  

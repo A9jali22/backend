@@ -1,0 +1,77 @@
+/* Full-Screen Gradient Background */
+.root-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #6a5acd, #d3d3d3, #f8f9fa);
+    background-size: cover;
+    color: #2c2c2c;
+    text-align: center;
+    padding: 20px; /* Ensures responsiveness */
+  }
+  
+  /* Glassmorphism Content Box */
+  .content-box {
+    background: rgba(255, 255, 255, 0.3);
+    padding: 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12px);
+    width: 360px;
+    max-width: 90%;
+  }
+  
+  /* Improved Heading Styling */
+  .main-heading {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #4a4a4a;
+    margin-bottom: 10px;
+  }
+  
+  .subtext {
+    font-size: 1.1rem;
+    color: #5a5a5a;
+    margin-bottom: 20px;
+  }
+  
+  /* Buttons Container */
+  .buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+  }
+  
+  /* Button Styling */
+  .btn {
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    text-transform: uppercase;
+    min-width: 130px; /* Ensures text fits inside the button */
+    white-space: nowrap; /* Prevents text overflow */
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  /* Soft Button Colors */
+  .login-btn {
+    background: #5a5acd;
+    color: white;
+  }
+  
+  .register-btn {
+    background: #757575;
+    color: white;
+  }
+  
+  /* Hover Effects */
+  .btn:hover {
+    opacity: 0.9;
+    transform: scale(1.05);
+  }
+  
